@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T17:31:29 EDT" name="Suite" finished-at="2024-07-15T17:32:01 EDT" duration-ms="32538">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T17:31:29 EDT" name="Test" finished-at="2024-07-15T17:32:01 EDT" duration-ms="32538">
+      <class name="com.sauceDemo.TestCases.InValidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:29 EDT" name="setup" finished-at="2024-07-15T17:31:31 EDT" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:1, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:31 EDT" name="invalidLogin" finished-at="2024-07-15T17:31:33 EDT" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:33 EDT" name="teardown" finished-at="2024-07-15T17:31:33 EDT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:33 EDT" name="setup" finished-at="2024-07-15T17:31:35 EDT" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankPasswordLogin()[pri:2, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:35 EDT" name="invalidBlankPasswordLogin" finished-at="2024-07-15T17:31:36 EDT" duration-ms="1384" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.sauceDemo.TestCases.InValidLoginTest.invalidBlankPasswordLogin(InValidLoginTest.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankPasswordLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:36 EDT" name="teardown" finished-at="2024-07-15T17:31:36 EDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:36 EDT" name="setup" finished-at="2024-07-15T17:31:38 EDT" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankUsernameLogin()[pri:3, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:38 EDT" name="invalidBlankUsernameLogin" finished-at="2024-07-15T17:31:39 EDT" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankUsernameLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:39 EDT" name="teardown" finished-at="2024-07-15T17:31:39 EDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:39 EDT" name="setup" finished-at="2024-07-15T17:31:41 EDT" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankUsernameAndPasswordLogin()[pri:4, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:41 EDT" name="invalidBlankUsernameAndPasswordLogin" finished-at="2024-07-15T17:31:42 EDT" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankUsernameAndPasswordLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.InValidLoginTest@53fe15ff]" started-at="2024-07-15T17:31:42 EDT" name="teardown" finished-at="2024-07-15T17:31:42 EDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauceDemo.TestCases.InValidLoginTest -->
+      <class name="com.sauceDemo.TestCases.ValidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:42 EDT" name="setup" finished-at="2024-07-15T17:31:44 EDT" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:44 EDT" name="loginWithValidCredentials" finished-at="2024-07-15T17:31:46 EDT" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:46 EDT" name="teardown" finished-at="2024-07-15T17:31:46 EDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:46 EDT" name="setup" finished-at="2024-07-15T17:31:48 EDT" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithSecondUsername()[pri:2, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:48 EDT" name="loginWithSecondUsername" finished-at="2024-07-15T17:31:49 EDT" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithSecondUsername -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:49 EDT" name="teardown" finished-at="2024-07-15T17:31:49 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:49 EDT" name="setup" finished-at="2024-07-15T17:31:51 EDT" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithThirduserName()[pri:3, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:51 EDT" name="loginWithThirduserName" finished-at="2024-07-15T17:31:52 EDT" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithThirduserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:52 EDT" name="teardown" finished-at="2024-07-15T17:31:53 EDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:53 EDT" name="setup" finished-at="2024-07-15T17:31:54 EDT" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithForthuserName()[pri:4, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:31:54 EDT" name="loginWithForthuserName" finished-at="2024-07-15T17:32:01 EDT" duration-ms="6755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithForthuserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@8519cb4]" started-at="2024-07-15T17:32:01 EDT" name="teardown" finished-at="2024-07-15T17:32:01 EDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauceDemo.TestCases.ValidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
