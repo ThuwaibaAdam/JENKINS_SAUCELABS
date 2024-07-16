@@ -30,8 +30,8 @@ public class TestBase {
 		if(browsernName.equals("Chrome")) {
 			options = new ChromeOptions();
 			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
-			options.addArguments("--start-maximized");
-			options.addArguments("--incognito");
+			options.addArguments("--headless");			options.addArguments("--start-maximized");
+			options.addArguments("--incognito");	
 			driver = new ChromeDriver(options);
 		}else if(browsernName.equals("firefox")) {
 			driver = new FirefoxDriver();
